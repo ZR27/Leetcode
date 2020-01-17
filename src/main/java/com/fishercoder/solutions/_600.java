@@ -37,9 +37,11 @@ public class _600 {
             int sum = 0;
             int prevBit = 0;
             while (i >= 0) {
-                if ((num & (1 << i)) != 0) {
+                if ((num & (1 << i)) != 0)
+                {
                     sum += f[i];
-                    if (prevBit == 1) {
+                    if (prevBit == 1)
+                    {
                         sum--;
                         break;
                     }
